@@ -12,20 +12,20 @@ const OrderPage = () => {
     <ShopLayout title='Resumen de la orden 123671523' pageDescription={'Resumen de la orden'}>
         <Typography variant='h1' component='h1'>Orden: ABC123</Typography>
 
-        {/* <Chip 
+        <Chip 
             sx={{ my: 2 }}
             label="Pendiente de pago"
             variant='outlined'
             color="error"
             icon={ <CreditCardOffOutlined /> }
-        /> */}
-        <Chip 
+        />
+        {/* <Chip 
             sx={{ my: 2 }}
             label="Orden ya fue pagada"
             variant='outlined'
             color="success"
             icon={ <CreditScoreOutlined /> }
-        />
+        /> */}
 
         <Grid container>
             <Grid item xs={ 12 } sm={ 7 }>

@@ -13,7 +13,7 @@ const CartPage = () => {
                 <CartList editable />
             </Grid>
             <Grid item xs={ 12 } sm={ 5 }>
-                <Card sx={{ ml: 6 }} className='summary-card'>
+                <Card sx={{ ml: 6 }}>
                     <CardContent>
                         <Typography variant='h2'>Orden</Typography>
                         <Divider sx={{ my:1 }} />

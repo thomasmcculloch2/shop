@@ -49,13 +49,14 @@ const rows = [
     { id: 4, paid: false, fullname: 'Emin Reyes' },
     { id: 5, paid: false, fullname: 'Eduardo Rios' },
     { id: 6, paid: true, fullname: 'Natalia Herrera' },
+    
 ]
 
 
 const HistoryPage = () => {
   return (
     <ShopLayout title={'Historial de ordenes'} pageDescription={'Historial de ordenes del cliente'}>
-        <Typography variant='h1' component='h1'>Historial de ordenes</Typography>
+        <Typography variant='h1' component='h1' sx ={{mb: 2}}>Historial de ordenes</Typography>
 
 
         <Grid container>
@@ -66,10 +67,8 @@ const HistoryPage = () => {
                     pageSize={ 10 }
                     rowsPerPageOptions={ [10] }
                 />
-
             </Grid>
         </Grid>
-
     </ShopLayout>
   )
 }
